@@ -7,10 +7,10 @@ requires-python = ">=3.12"
 dependencies = [
     "einops>=0.8.2",
     "imageio>=2.37.3",
-    "numpy>=2.4.3",
+    "numpy<2",
     "omegaconf>=2.3.0",
     "open3d>=0.19.0",
-    "opencv-contrib-python>=4.13.0.92",
+    "opencv-contrib-python>=4.11.0.86",
     "pyyaml>=6.0.3",
     "scikit-image>=0.26.0",
     "scipy>=1.17.1",
